@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import printMe from './print';
+import printMe from './print.js';
 import './style.css';
 
 const component = () => {
@@ -14,5 +14,5 @@ const component = () => {
 
   element.appendChild(btn);
   return element;
-}
+};
 document.body.appendChild(component());
